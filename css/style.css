@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  border-spacing: 0;
+}
+
+td {
+  background-color: black;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+  background-color: white;
+}
+
+tr:nth-child(even) td:nth-child(even) {
+  background-color: white;
+}
